@@ -1,5 +1,5 @@
 import AddTasks from "./components/AddTasks";
-import Tasks from "./components/tasks";
+import Tasks from "./components/Tasks";
 import { useEffect, useState } from "react";
 import { v4 } from "uuid";
 
