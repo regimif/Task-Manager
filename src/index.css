@@ -1,7 +1,8 @@
 @import "tailwindcss";
 @theme {
-  --color-body-bg: #284b63;
-  --color-out-container-bg: #f2f2f2;
-  --color-inner-container-bg: #91a3af;
-  --color-addtask-button-bg: #3c6e71;
+  --color-body-bg: #6a6c54;
+  --color-out-container-bg: #f7f0e6;
+  --color-inner-container-bg: #b8a99a;
+  --color-addtask-button-bg: #c57b57;
+  --color-title-text: #f8f8f8;
 }

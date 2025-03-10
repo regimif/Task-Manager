@@ -77,7 +77,7 @@ function App() {
   return (
     <div className="w-screen h-screen bg-body-bg flex justify-center p-6">
       <div className="w-[500px] space-y-4">
-        <h1 className="text-center text-3xl text-slate-100 font-bold">
+        <h1 className="text-center text-3xl text-title-text font-bold">
           Task Manager
         </h1>
         <AddTasks onAddTaskSubmit={onAddTaskSubmit} />

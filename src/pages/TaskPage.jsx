@@ -17,8 +17,8 @@ function TaskPage() {
           >
             <ChevronLeft />
           </button>
-          <h1 className="text-center text-3xl text-slate-100 font-bold">
-            Task Manager
+          <h1 className="text-center text-3xl text-title-text font-bold">
+            Details
           </h1>
         </div>
 
