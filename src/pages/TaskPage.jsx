@@ -22,7 +22,7 @@ function TaskPage() {
           </h1>
         </div>
 
-        <div className="space-y-4 p-6 rounded-md bg-out-container-bg flex flex-col">
+        <div className="space-y-4 p-6 rounded-md bg-out-container-bg flex flex-col break-words">
           <h2 className="text-xl font-bold">{title}</h2>
           <p>{description}</p>
         </div>

@@ -18,7 +18,7 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
             onClick={() => onTaskClick(task.id)}
             className={`w-full text-left bg-inner-container-bg text-white rounded-md p-2 ${
               task.isCompleted && "line-through"
-            }`}
+            } whitespace-nowrap overflow-hidden`}
           >
             {task.title}
           </button>
