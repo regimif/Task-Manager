@@ -1,29 +1,48 @@
 import AddTasks from "./components/AddTasks";
 import Tasks from "./components/tasks";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { v4 } from "uuid";
 
 function App() {
-  const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      title: "Wash Socks",
-      description: "Wash all the socks in the house",
-      isCompleted: false,
-    },
-    {
-      id: 2,
-      title: "Meeting at School",
-      description: "Meeting with the principal",
-      isCompleted: false,
-    },
-    {
-      id: 3,
-      title: "Food Shopping",
-      description: "Buy groceries for the week",
-      isCompleted: false,
-    },
-  ]);
+  const [tasks, setTasks] = useState(
+    JSON.parse(localStorage.getItem("tasks")) || [
+      {
+        id: 1,
+        title: "Wash Socks",
+        description: "Wash all the socks in the house",
+        isCompleted: false,
+      },
+      {
+        id: 2,
+        title: "Meeting at School",
+        description: "Meeting with the principal",
+        isCompleted: false,
+      },
+      {
+        id: 3,
+        title: "Food Shopping",
+        description: "Buy groceries for the week",
+        isCompleted: false,
+      },
+    ]
+  );
+
+  useEffect(() => {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }, [tasks]);
+
+  // If wanted to use fetch to get the tasks from an API, you can use the following code:
+  // useEffect(() => {
+  //   async function fetchTasks() {
+  //     const response = await fetch(
+  //       "https://jsonplaceholder.typicode.com/todos?_limit=10",
+  //       { method: "GET" }
+  //     );
+  //     const data = await response.json();
+  //     setTasks(data);
+  //   }
+  //   fetchTasks();
+  // }, []);
 
   function onTaskClick(taskId) {
     const newTasks = tasks.map((task) => {
