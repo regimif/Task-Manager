@@ -72,3 +72,6 @@ I welcome contributions to Task Manager! If you would like to contribute, please
 3. Review Guidelines: Before contributing, please review the existing codebase to understand the project's structure and coding conventions.
 
 Thank you for your interest in contributing to Task Manager!
+
+## ⚖️ License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
