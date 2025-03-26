@@ -1,6 +1,55 @@
 # Task Manager
 
 ## 🗒️ Description:
+
+**Task Manager** is a web application designed to help users manage their tasks efficiently. Built with React and Vite, it offers a responsive and intuitive interface for creating, organizing, and tracking tasks. The project utilizes Tailwind CSS for styling, Lucide-react for icons, UUID for unique task identification, and React Router for seamless navigation. Whether for personal or professional use, Task Manager simplifies task management with a clean and modern design.
+
+## 🔨 Installation:
+
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+```
+git clone https://github.com/regimif/Task-Manager.git
+```
+
+Navigate to the project directory:
+
+```
+cd Task-Manager
+```
+
+Install the dependencies:
+
+```
+bash
+npm install
+```
+
+Start the development server:
+
+```
+npm run dev
+```
+
+Open your browser and access the application at:
+
+```
+http://localhost:{your_port}
+```
+
+(The default port is usually 5173, but it may vary depending on your system.)
+
+Alternatively, you can view the live version hosted on `Vercel`[here](https://task-manager-jade-zeta.vercel.app/) .
+
+## 🔍 Image Preview:
+
+![Task Manager Preview Image](https://github.com/user-attachments/assets/367d2df0-66f2-4150-be9c-cdc29909de71)
+
+## ✨ Features:
+
+
 **Task Manager** is a web application designed to help users manage their tasks efficiently. Built with React and Vite, it offers a responsive and intuitive interface for creating, organizing, and tracking tasks. The project utilizes Tailwind CSS for styling, Lucide-react for icons, UUID for unique task identification, and React Router for seamless navigation. Whether for personal or professional use, Task Manager simplifies task management with a clean and modern design.
 
  ## 🔨 Installation:
@@ -46,6 +95,7 @@ Alternatively, you can view the live version hosted on `Vercel`[here](https://ta
 ● **Local Storage Support**: Your tasks are saved in the browser's local storage, ensuring they persist even after closing the app.
 
 ## 🧪 Technologies Used:
+
 **React**: A JavaScript library for building user interfaces.
 
 **Vite**: A fast build tool for modern web development.
@@ -63,6 +113,7 @@ Alternatively, you can view the live version hosted on `Vercel`[here](https://ta
 **Local Storage**: Used to persist task data in the browser.
 
 ## 🫂 Contributing:
+
 I welcome contributions to Task Manager! If you would like to contribute, please follow these guidelines:
 
 1. Report Issues: If you encounter any bugs or have suggestions for improvements, please open an issue on the [GitHub Issues page](https://github.com/regimif/Task-Manager/issues).
@@ -74,4 +125,5 @@ I welcome contributions to Task Manager! If you would like to contribute, please
 Thank you for your interest in contributing to Task Manager!
 
 ## ⚖️ License:
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -6,6 +6,7 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
 
   function onSeeDetailsClick(task) {
     const query = new URLSearchParams();
+    query.set("id", task.id); // Adiciona o ID aos parâmetros
     query.set("title", task.title);
     query.set("description", task.description);
     navigate(`/task?${query.toString()}`);
