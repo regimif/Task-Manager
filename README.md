@@ -49,6 +49,41 @@ Alternatively, you can view the live version hosted on `Vercel`[here](https://ta
 
 ## ✨ Features:
 
+
+**Task Manager** is a web application designed to help users manage their tasks efficiently. Built with React and Vite, it offers a responsive and intuitive interface for creating, organizing, and tracking tasks. The project utilizes Tailwind CSS for styling, Lucide-react for icons, UUID for unique task identification, and React Router for seamless navigation. Whether for personal or professional use, Task Manager simplifies task management with a clean and modern design.
+
+ ## 🔨 Installation:
+To run this project locally, follow these steps:
+
+Clone the repository:
+```
+git clone https://github.com/regimif/Task-Manager.git
+```
+Navigate to the project directory:
+```
+cd Task-Manager
+```
+Install the dependencies:
+```
+bash
+npm install
+```
+Start the development server:
+```
+npm run dev
+```
+Open your browser and access the application at:
+```
+http://localhost:{your_port}
+```
+(The default port is usually 5173, but it may vary depending on your system.)
+
+Alternatively, you can view the live version hosted on `Vercel`[here](https://task-manager-jade-zeta.vercel.app/) .
+
+## 🔍 Image Preview:
+![Task Manager Preview Image](https://github.com/user-attachments/assets/367d2df0-66f2-4150-be9c-cdc29909de71)
+
+## ✨ Features:
 ● **Add and Remove Tasks**: Easily create new tasks or delete existing ones.
 
 ● **Custom Task Descriptions**: For better organization.
